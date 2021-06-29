@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+
+    <!-- Anime on Scroll CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <style>
+      body {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      document.body.style.visibility = "hidden";
+      document.body.style.opacity = 0;
+    </script>
+    <div class="main">
+      <!-- NAV SECTION -->
+      <nav class="nav-wrapper">
+        <div class="container-fluid py-2">
+          <div class="nav-block d-flex justify-content-around">
+            <div class="logo-box my-auto">
+              <a href=""
+                ><h3 id="logo-name" class="pt-1">
+                  H<span id="dot">.</span>LOPEZ
+                </h3></a
+              >
+            </div>
+            <div class="nav-link-container d-md-flex">
+              <ul class="d-flex my-auto align-items-center justify-content-end">
+                <li class="nav-item">
+                  <a class="be-active pb-1" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="pb-1" href="#about">About Me </a>
+                </li>
+                <li class="nav-item">
+                  <a class="pb-1" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="pb-1" href="#works">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="pb-1" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="hire-button my-auto">
+              <a class="hire-me" href="">Hire Me</a>
+            </div>
+            <button class="hamburger">
+              <div class="bar"></div>
+              <div class="bar-2"></div>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- Mobile-Nav -->
+      <nav class="mobile-nav">
+        <a class="mobile-active" href="#">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#works">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- HERO SECTION -->
+      <header class="header">
+        <div class="">
+          <div class="flex-box d-flex flex-column flex-md-row">
+            <div class="hero-img-block">
+              <div class="" data-aos="fade-up">
+                <img
+                  class="img-fluid"
+                  src="assets/images/hero-image.png"
+                  alt=""
+                />
+              </div>
+              <div class="overlay-text">
+                <h2 class="intro-overlay">
+                  Hi. <br />
+                  <span class="hero-name">I'm Hamda Lopez</span>
+                </h2>
+              </div>
+            </div>
+
+            <div
+              class="
+                content-col
+                d-flex
+                justify-content-center
+                align-items-center
+                pb-4 pb-md-0
+              "
+            >
+              <div class="hero-content-block ps-3 ps-md-5">
+                <h2 class="intro pt-md-3">
+                  Hi. <br />
+                  <span class="hero-name">I'm Hamda Lopez</span>
+                </h2>
+                <div class="hero-text-box">
+                  <h4 class="hero-title pt-3 pt-md-0">Web Developer</h4>
+                  <p class="hero-text">
+                    Curabitur condimentum nibh at suscipit interdum.
+                    <br class="hide-break" />
+                    Aenean ac cursus nunc. Phasellus rutrum consequat
+                    <br class="hide-break" />
+                    bibendum.
+                  </p>
+                  <div class="hire-button-two">
+                    <a class="hire-me-two" href="#contact">Hire Me</a>
+                  </div>
+                  <p class="style-name text-center text-md-start">
+                    Hamza Lopez
+                  </p>
+                </div>
+                <div class="social-media-icons pt-2 pt-md-0 d-md-flex">
+                  <div class="media-box me-3">
+                    <img src="assets/images/facebook-f.svg" alt="facebook" />
+                  </div>
+                  <div class="media-box mx-3">
+                    <img
+                      src="assets/images/codesandbox (1).svg"
+                      alt="facebook"
+                    />
+                  </div>
+                  <div class="media-box mx-3">
+                    <img src="assets/images/logo-github.svg" alt="facebook" />
+                  </div>
+                  <div class="media-box mx-3">
+                    <img src="assets/images/logo-twitter.svg" alt="facebook" />
+                  </div>
+                  <div class="media-box ms-3">
+                    <img src="assets/images/behance.svg" alt="facebook" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ABOUT ME SECTION -->
+      <section id="about" class="about-me pb-5 text-center">
+        <div data-aos="zoom-in">
+          <h4 class="about-title py-5">About Me</h4>
+        </div>
+        <div data-aos="fade-zoom-in">
+          <div class="yellow-bar"></div>
+          <div class="polygon-1 outside mx-auto" data-aos-delay="1000">
+            <div class="polygon-2 inside">
+              <div class="about-content container">
+                <div class="row pt-4">
+                  <div class="col-md-4">
+                    <div class="detail-box name d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail pt-1 pt-md-0">Name</p>
+                      </div>
+                      <div class="detail-value pt-1 pt-md-0">
+                        <p class="about-value">: Hamda Juan Lopez</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4 pt-md-0">
+                    <div class="detail-box dob d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail pt-1 pt-md-0 dob">
+                          Date of Birth
+                        </p>
+                      </div>
+                      <div class="detail-value pt-1 pt-md-0">
+                        <p class="about-value dob">: December 9th 1991</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4 pt-md-0">
+                    <div class="detail-box nationality d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail">Nationality</p>
+                      </div>
+                      <div class="detail-value">
+                        <p class="about-value">: Italian</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4 pt-md-0">
+                    <div class="detail-box address d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail">Address</p>
+                      </div>
+                      <div class="detail-value">
+                        <p class="about-value">: 6, de letti street</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4 pt-md-0">
+                    <div class="detail-box phone d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail">Phone</p>
+                      </div>
+                      <div class="detail-value">
+                        <p class="about-value">: (+123) 1234567890</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pt-4 pt-md-0">
+                    <div class="detail-box email d-flex">
+                      <div class="detail-title">
+                        <p class="about-detail">Email</p>
+                      </div>
+                      <div class="detail-value">
+                        <p class="about-value">: hamdajlo@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills py-4 m-0">
+        <div class="mobile-accordion px-2" data-aos="fade-up">
+          <div class="accordion-body">
+            <div class="skills-wrapper">
+              <div class="skill-title-box d-flex justify-content-between">
+                <div class="skill">
+                  <div class="icon-box">
+                    <img src="assets/images/user-circle-solid.svg" alt="" />
+                  </div>
+                  <p class="skill-title pt-1">Brief Introduction</p>
+                </div>
+                <div class="arrow-button">
+                  <img src="assets/images/chevrons-down.svg" alt="" />
+                </div>
+              </div>
+              <div class="skills-details">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at
+                et tristique aliquet. Arcu orci dictum sed eu, sed neque eget.
+                Sit convallis aliquam lobortis diam. In morbi fusce nibh iaculis
+                iaculis senectus consectetur. Amet sed nec In morbi fusce nibh
+                iaculis iaculis senectus consectetur. Amet sed nec. Aenean
+                gravida ligula vel mauris volutpat condimentum. Ut eu tortor
+                suscipit, accumsan risus nec, finibus orci. Proin pretium augue
+                at cursus ornare.
+              </div>
+            </div>
+
+            <div class="skills-wrapper mt-3">
+              <div class="skill-title-box d-flex justify-content-between">
+                <div class="skill">
+                  <div class="icon-box">
+                    <img
+                      src="assets/images/brain-circuit-24-regular.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="skill-title pt-1">DEVELOPMENT SKILLS</p>
+                </div>
+                <div class="arrow-button">
+                  <img src="assets/images/chevrons-down.svg" alt="" />
+                </div>
+              </div>
+              <div class="skills-details">
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">Java</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">Joomla</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">php</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">phython</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-wrapper mt-3">
+              <div class="skill-title-box d-flex justify-content-between">
+                <div class="skill">
+                  <div class="icon-box">
+                    <img src="assets/images/brush.svg" alt="" />
+                  </div>
+                  <p class="skill-title pt-1">DESIGN SKILLS</p>
+                </div>
+                <div class="arrow-button">
+                  <img src="assets/images/chevrons-down.svg" alt="" />
+                </div>
+              </div>
+              <div class="skills-details">
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">Photoshop</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">Illustrator</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+                <div class="d-flex pb-2">
+                  <div class="tools-box">
+                    <p class="tool-name pt-1">Indesign</p>
+                  </div>
+                  <div class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3">
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="orange-range"></div>
+                    <div class="empty-range"></div>
+                    <div class="empty-range"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-wrapper mt-3">
+              <div class="skill-title-box d-flex justify-content-between">
+                <div class="skill">
+                  <div class="icon-box">
+                    <img src="assets/images/user-circle-line.svg" alt="" />
+                  </div>
+                  <p class="skill-title pt-1">PERSONAL SKILLS</p>
+                </div>
+                <div class="arrow-button">
+                  <img src="assets/images/chevrons-down.svg" alt="" />
+                </div>
+              </div>
+              <div class="skills-details">
+                <p>
+                  COMMUNICATION <br />
+                  MARKETING <br />
+                  LEADERSHIP <br />
+                  TEAM WORK
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="skills-lg py-4 pt-md-3 pb-md-4 container"
+          data-aos="slide-up"
+        >
+          <div class="d-flex">
+            <div class="lg-icon">
+              <img src="assets/images/user-circle-solid.svg" alt="" />
+            </div>
+            <div class="lg-skill-title ps-2">
+              <p class="lg-title-text">BRIEF INTRODUCTION</p>
+              <p class="lg-body-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at
+                et tristique aliquet. Arcu orci dictum sed eu, sed neque eget.
+                Sit convallis aliquam lobortis diam. In morbi fusce nibh iaculis
+                iaculis senectus consectetur. Amet sed nec In morbi fusce nibh
+                iaculis iaculis senectus consectetur. Amet sed nec. Aenean
+                gravida ligula vel mauris volutpat condimentum. Ut eu tortor
+                suscipit, accumsan risus nec, finibus orci. Proin pretium augue
+                at cursus ornare.
+              </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-4">
+              <div class="d-flex">
+                <div class="lg-icon">
+                  <img
+                    src="assets/images/brain-circuit-24-regular.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="lg-skill-title ps-2">
+                  <p class="lg-title-text pb-2">DEVELOPMENT SKILLS</p>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">Java</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">Joomla</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">php</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">phython</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="d-flex">
+                <div class="lg-icon">
+                  <img src="assets/images/brush.svg" alt="" />
+                </div>
+                <div class="lg-skill-title ps-2">
+                  <p class="lg-title-text pb-2">DESIGN SKILLS</p>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">photoshop</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">Illustrator</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex pb-2">
+                    <div class="tools-box">
+                      <p class="tool-name pt-1">Indesign</p>
+                    </div>
+                    <div
+                      class="tool-range-flex d-flex ps-2 ps-lg-4 pt-3 pt-lg-3"
+                    >
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="orange-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                      <div class="empty-range"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ps-1 ps-lg-0">
+              <div class="d-flex ps-lg-5">
+                <div class="lg-icon">
+                  <img src="assets/images/user-circle-line.svg" alt="" />
+                </div>
+                <div class="lg-skill-title ps-2">
+                  <p class="lg-title-text pb-2">PERSONAL SKILLS</p>
+                  <p class="lg-body-text">
+                    COMMUNICATION <br />
+                    <br />
+                    MARKETING <br />
+                    <br />
+                    LEADERSHIP <br />
+                    <br />
+                    TEAMWORK
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            button-container
+            d-flex
+            align-items-center
+            justify-content-center
+            flex-column flex-md-row
+            justify-content-md-center
+            py-4 py-md-0
+          "
+          data-aos="zoom-out"
+        >
+          <div class="grey-hire-btn">
+            <a class="grey-link" href="#contact">Hire Me</a>
+          </div>
+          <div class="resume">
+            <a class="resume-link" href="">Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section id="services" class="services">
+        <div class="services-header" data-aos="zoom-in">
+          <h4 class="service-heading text-center">Services</h4>
+        </div>
+        <div class="grey-bg">
+          <div
+            class="white-bg m-auto py-3"
+            data-aos="slide-up"
+            data-aos-once="true"
+          >
+            <div class="container white-box">
+              <div class="row service-block">
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/globe-32-regular.svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Web Design</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/paint-brush.svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Graphic Design</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500"
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/camera.svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Photography</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/folder-48-regular.svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Branding</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/Vector.svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Mobile Apps</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="
+                      white-card-last
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="icon-box py-3">
+                      <img src="assets/images/Vector (1).svg" alt="" />
+                    </div>
+                    <div class="service-content text-center">
+                      <h5 class="service-title">Digital Marketing</h5>
+                      <p class="service-content pt-2 pb-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Facilisis enim id viverra eget.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORKS SECTION -->
+      <section id="works" class="works">
+        <div class="works-header" data-aos-delay="zoom-in">
+          <h4 class="work-heading text-center">Works</h4>
+        </div>
+        <div class="grey-bg-works">
+          <div
+            class="white-bg-works m-auto py-3"
+            data-aos="slide-up"
+            data-aos-once="true"
+          >
+            <div class="container white-box-works">
+              <div
+                class="
+                  row
+                  service-block
+                  flex-md-row-reverse
+                  justify-content-lg-between
+                "
+              >
+                <div class="col-md-5 work-wrapper col-lg-4 mb-md-5">
+                  <div
+                    class="work-image-box w-img-div"
+                    data-aos="flip-left"
+                    data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    <img
+                      class="img-fluid w-img"
+                      src="assets/images/my-works-dell.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7 mb-md-4">
+                  <div
+                    class="work-content"
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                  >
+                    <p class="work-name lead pt-4 pt-md-0">Dell</p>
+                    <p class="platform">iOS | ANDROID | WEB DEVELOPMENT</p>
+                    <p class="work-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-5 work-wrapper col-lg-4 mb-md-5">
+                  <div
+                    class="work-image-box w-img-div"
+                    data-aos="flip-left"
+                    data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    <img
+                      class="img-fluid w-img"
+                      src="assets/images/my-works-spotify.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7 mb-md-5">
+                  <div
+                    class="work-content"
+                    class="work-content"
+                    data-aos="fade-zoom-in"
+                  >
+                    <p class="work-name lead pt-4 pt-md-0">Spotify</p>
+                    <p class="platform">iOS | ANDROID | WEB DEVELOPMENT</p>
+                    <p class="work-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-5 work-wrapper col-lg-4 mb-md-5">
+                  <div
+                    class="work-image-box w-img-div"
+                    data-aos="flip-left"
+                    data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    <img
+                      class="img-fluid w-img"
+                      src="assets/images/my-works-madcap.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7 mb-md-4">
+                  <div
+                    class="work-content"
+                    class="work-content"
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                  >
+                    <p class="work-name lead pt-4 pt-md-0">MadCap</p>
+                    <p class="platform">iOS | ANDROID | WEB DEVELOPMENT</p>
+                    <p class="work-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-5 work-wrapper col-lg-4">
+                  <div
+                    class="work-image-box w-img-div"
+                    data-aos="flip-left"
+                    data-aos-delay="1000"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
+                    <img
+                      class="img-fluid w-img"
+                      src="assets/images/my-works-uncover.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div
+                    class="work-content-last"
+                    class="work-content"
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                  >
+                    <p class="work-name lead pt-4 pt-md-0">Uncover</p>
+                    <p class="platform">iOS | ANDROID | WEB DEVELOPMENT</p>
+                    <p class="work-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact">
+        <div class="contact-wrapper pb-4">
+          <div data-aos="zoom-in">
+            <h4 class="contact-heading text-center">Leave Me a Message</h4>
+          </div>
+
+          <div class="container">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <form action="">
+                <div class="row mx-auto justify-content-md-between">
+                  <div class="col-md-5">
+                    <div class="box">
+                      <div>
+                        <input type="text" name="" required id="" />
+                        <label for="">Name</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="box">
+                      <div>
+                        <input type="email" name="" required id="" />
+                        <label for="">Email</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box text-center">
+                  <div>
+                    <textarea required></textarea>
+                    <label class="msg" for="">Message</label>
+                  </div>
+                </div>
+              </form>
+
+              <div class="send-btn py-2">
+                <div class="send-button">
+                  <a class="send-link" href="">Send Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="white-bg-contact px-4 pt-4 pb-3"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        <div class="container">
+          <div
+            class="
+              d-flex
+              flex-column
+              align-items-center
+              flex-md-row
+              justify-content-md-evenly
+            "
+          >
+            <div class="">
+              <div class="contact-container d-flex pt-1">
+                <div class="contact-box-icon">
+                  <img src="assets/images/map-pin.svg" alt="" />
+                </div>
+                <div class="contact-box-detail">
+                  <p class="ps-2">6, de letti street</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="contact-container pt-1 d-flex">
+                <div class="contact-box-icon">
+                  <img src="assets/images/phone-call.svg" alt="" />
+                </div>
+                <div class="contact-box-detail">
+                  <p class="ps-2">(+123) 1234567890</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="contact-container pt-1 d-flex">
+                <div class="contact-box-icon">
+                  <img src="assets/images/mail.svg" alt="" />
+                </div>
+                <div class="contact-box-detail">
+                  <p class="ps-2">hamdajlo@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer px-4 pt-4 pb-3">
+        <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="footer-icon-box d-flex">
+              <div class="footer-icon">
+                <img src="assets/images/facebook-f.svg" alt="" />
+              </div>
+              <div class="footer-icon ps-3">
+                <img src="assets/images/codesandbox (1).svg" alt="" />
+              </div>
+              <div class="footer-icon px-3">
+                <img src="assets/images/logo-github.svg" alt="" />
+              </div>
+              <div class="footer-icon pe-3">
+                <img src="assets/images/logo-twitter.svg" alt="" />
+              </div>
+              <div class="footer-icon">
+                <img src="assets/images/behance.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="footer-text text-center pt-4">
+            Copyright © 2020 HamdaJlo - All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Splash Screen -->
+    <div id="splashScreen" display="none">
+      <svg
+        id="logo-2"
+        width="144"
+        height="27"
+        viewBox="0 0 144 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.364
+      0.439995V26H17.88V14.048H2.724V26H0.204002V0.439995H2.724V11.816H17.88V0.439995H20.364Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M25.9181
+      26V22.472H28.0421V26H25.9181Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M33.6024 26V0.439995H36.1224V23.768H50.8824V26H33.6024Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M63.832 26.18C62.032 26.18
+      60.4 25.82 58.936 25.1C57.472 24.356 56.212 23.372 55.156 22.148C54.1
+      20.924 53.284 19.544 52.708 18.008C52.132 16.448 51.844 14.852 51.844
+      13.22C51.844 11.516 52.144 9.896 52.744 8.36C53.344 6.8 54.184 5.42 55.264
+      4.22C56.368 2.996 57.652 2.036 59.116 1.33999C60.58 0.619995 62.164
+      0.259995 63.868 0.259995C65.644 0.259995 67.264 0.631995 68.728
+      1.376C70.192 2.11999 71.452 3.11599 72.508 4.364C73.588 5.612 74.404
+      7.00399 74.956 8.54C75.532 10.076 75.82 11.648 75.82 13.256C75.82 14.96
+      75.52 16.592 74.92 18.152C74.32 19.688 73.48 21.068 72.4 22.292C71.32
+      23.492 70.048 24.44 68.584 25.136C67.12 25.832 65.536 26.18 63.832
+      26.18ZM54.364 13.22C54.364 14.612 54.592 15.944 55.048 17.216C55.504
+      18.488 56.152 19.628 56.992 20.636C57.832 21.644 58.828 22.448 59.98
+      23.048C61.156 23.624 62.44 23.912 63.832 23.912C65.296 23.912 66.604
+      23.612 67.756 23.012C68.932 22.388 69.928 21.56 70.744 20.528C71.584
+      19.496 72.22 18.356 72.652 17.108C73.084 15.836 73.3 14.54 73.3 13.22C73.3
+      11.828 73.072 10.496 72.616 9.224C72.16 7.95199 71.5 6.81199 70.636
+      5.80399C69.796 4.79599 68.8 4.00399 67.648 3.42799C66.496 2.85199 65.224
+      2.564 63.832 2.564C62.392 2.564 61.084 2.864 59.908 3.46399C58.756 4.064
+      57.76 4.88 56.92 5.91199C56.104 6.91999 55.468 8.05999 55.012 9.332C54.58
+      10.604 54.364 11.9 54.364 13.22Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M80.5712 26V0.439995H91.1552C92.2592 0.439995 93.2672 0.667995
+      94.1792 1.12399C95.1152 1.57999 95.9192 2.20399 96.5912 2.99599C97.2872
+      3.76399 97.8152 4.628 98.1752 5.588C98.5592 6.524 98.7512 7.484 98.7512
+      8.46799C98.7512 9.85999 98.4392 11.18 97.8152 12.428C97.1912 13.652
+      96.3272 14.648 95.2232 15.416C94.1192 16.184 92.8352 16.568 91.3712
+      16.568H83.0912V26H80.5712ZM83.0912 14.336H91.2632C92.2712 14.336 93.1472
+      14.06 93.8912 13.508C94.6352 12.956 95.2112 12.236 95.6192 11.348C96.0272
+      10.46 96.2312 9.49999 96.2312 8.46799C96.2312 7.41199 95.9912 6.452
+      95.5112 5.588C95.0312 4.7 94.3952 3.992 93.6032 3.46399C92.8352 2.936
+      91.9832 2.672 91.0472 2.672H83.0912V14.336Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M120.138
+      23.768V26H102.966V0.439995H119.814V2.672H105.486V11.888H117.978V14.012H105.486V23.768H120.138Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+        <path
+          d="M122.815 24.02L140.203
+      2.672H123.103V0.439995H143.119V2.42L125.947
+      23.768H143.083V26H122.815V24.02Z"
+          stroke="#f3a404"
+          stroke-width="2"
+          ;
+        />
+      </svg>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/javascript/main.js"></script>
+  </body>
+</html>
