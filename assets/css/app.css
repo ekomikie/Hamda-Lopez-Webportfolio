@@ -28,6 +28,8 @@ body {
   background-color:var(--primary-color);
   font-family: var(--font-family-main);
   position: fixed;
+  overflow: hidden;
+  margin: 0
   width: 100%;
   z-index: 90;
 }
