@@ -1032,7 +1032,7 @@ font-family:'Franklin Gothic Demi';
 }
 
 #splashScreen.loaded {
-  animation:shift-out 0.3s ease 2s forwards 
+  animation:shift-out 0.3s ease 2s forwards;
 }
 
 @keyframes shift-out {
@@ -1126,51 +1126,51 @@ font-family:'Franklin Gothic Demi';
   top:50%;
   left:50%;
   transform:translate(-50%,-50%) ;
-  animation: fill 0.25s ease forwards 2s;
+  animation: fill 0.3s ease forwards 3s;
  
 }
 
 #logo-2 path:nth-child(1) {
   stroke-dasharray: 138.2;
   stroke-dashoffset: 138.2;
-  animation: line-anim 1.5s ease forwards;
+  animation: line-anim 2s ease forwards;
   
 }
 
 #logo-2 path:nth-child(2) {
   stroke-dasharray: 12.0;
   stroke-dashoffset: 12.0;
-  animation: line-anim 1.5s ease forwards 0.3s;
+  animation: line-anim 2s ease forwards 0.3s;
 }
 
 #logo-2 path:nth-child(3) {
   stroke-dasharray: 85.72;
   stroke-dashoffset: 85.72;
-  animation: line-anim 1.5s ease forwards 0.6s;
+  animation: line-anim 2s ease forwards 0.6s;
 }
 
 #logo-2 path:nth-child(4) {
   stroke-dasharray: 142.0;
   stroke-dashoffset: 142.0;
-  animation: line-anim 1.5s ease forwards 0.9s;
+  animation: line-anim 2s ease forwards 0.9s;
 }
 
 #logo-2 path:nth-child(5) {
   stroke-dasharray: 126.8;
   stroke-dashoffset: 126.8;
-  animation: line-anim 1.5s ease forwards 1.2s;
+  animation: line-anim 2s ease forwards 1.2s;
 }
 
 #logo-2 path:nth-child(6) {
   stroke-dasharray: 140.41;
   stroke-dashoffset: 140.41;
-  animation: line-anim 1.5s ease forwards 1.5s;
+  animation: line-anim 2s ease forwards 1.5s;
 }
 
 #logo-2 path:nth-child(7) {
   stroke-dasharray: 138.9;
   stroke-dashoffset: 138.9;
-  animation: line-anim 1.5s ease forwards 1.8s;
+  animation: line-anim 2s ease forwards 1.8s;
 }
 
 
