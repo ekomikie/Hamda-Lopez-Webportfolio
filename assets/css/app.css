@@ -1032,7 +1032,7 @@ font-family:'Franklin Gothic Demi';
 }
 
 #splashScreen.loaded {
-  animation:shift-out 0.4s ease 2.5s forwards;
+  animation:shift-out 0.5s ease 2.5s forwards;
 }
 
 @keyframes shift-out {
