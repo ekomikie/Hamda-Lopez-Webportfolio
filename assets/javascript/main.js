@@ -54,7 +54,7 @@ const menu_btn = document.querySelector('.hamburger');
   AOS.init(
     {
       duration: 1200,
-      easing: ease-out-back,
+      easing: 'ease-out-back',
       
     }
   );
