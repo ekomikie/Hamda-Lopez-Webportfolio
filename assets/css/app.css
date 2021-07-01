@@ -601,7 +601,7 @@ font-family:'Franklin Gothic Demi';
 
 .grey-bg-works {
   background-color: var(--primary-color);
-  height:1800px;
+  height:1820px;
 }
 
 .white-bg-works {
@@ -1171,7 +1171,7 @@ font-family:'Franklin Gothic Demi';
 @media only screen and (min-width:425px) {
 
     .grey-bg-works {
-      height: 1800px;
+      height: 1930px;
       
     }
 }
