@@ -601,7 +601,7 @@ font-family:'Franklin Gothic Demi';
 
 .grey-bg-works {
   background-color: var(--primary-color);
-  height:1820px;
+  height:1800px;
 }
 
 .white-bg-works {
@@ -1047,65 +1047,6 @@ font-family:'Franklin Gothic Demi';
   transition-timing-function:ease;
 }
 
-#logo {
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%) ;
- 
-}
-
-
-
-#logo path:nth-child(1) {
-  stroke-dasharray: 552.3840;
-  stroke-dashoffset: 552.3840;
-  animation: line-anim 2s ease forwards;
-  
-}
-
-#logo path:nth-child(2) {
-  stroke-dasharray: 45.5;
-  stroke-dashoffset: 45.5;
-  animation: line-anim 2s ease forwards 0.3s;
-}
-
-#logo path:nth-child(3) {
-  stroke-dasharray: 342.72;
-  stroke-dashoffset: 342.72;
-  animation: line-anim 2s ease forwards 0.6s;
-}
-
-#logo path:nth-child(4) {
-  stroke-dasharray: 567.23;
-  stroke-dashoffset: 567.23;
-  animation: line-anim 2s ease forwards 0.9s;
-}
-
-#logo path:nth-child(5) {
-  stroke-dasharray: 502.98;
-  stroke-dashoffset: 502.98;
-  animation: line-anim 2s ease forwards 1.2s;
-}
-
-#logo path:nth-child(6) {
-  stroke-dasharray: 556.41;
-  stroke-dashoffset: 556.41;
-  animation: line-anim 2s ease forwards 1.5s;
-}
-
-#logo path:nth-child(7) {
-  stroke-dasharray: 551.5;
-  stroke-dashoffset: 551.5;
-  animation: line-anim 2s ease forwards 1.8s;
-}
-
-#logo path:nth-child(8) {
-  stroke-dasharray: 6422.05;
-  stroke-dashoffset: 6422.05;
-  animation: line-anim 2s ease forwards 7.0s;
-}
-
 @keyframes line-anim {
   to{
     stroke-dashoffset: 0;
@@ -1204,7 +1145,7 @@ font-family:'Franklin Gothic Demi';
   }
 
     .grey-bg-works {
-      height: 1870px;
+      height: 1850px;
     }
 }
 
@@ -1214,7 +1155,7 @@ font-family:'Franklin Gothic Demi';
     top:58px;
   }
     .grey-bg-works {
-      height: 1910px;
+      height: 1890px;
     }
 
     .platform {
@@ -1225,6 +1166,35 @@ font-family:'Franklin Gothic Demi';
       font-weight:400 ;
     }
 
+}
+
+@media only screen and (min-width:425px) {
+
+    .grey-bg-works {
+      height: 1800px;
+      
+    }
+}
+
+@media only screen and (min-width:429px) {
+  .grey-bg-works {
+    height: 1940px;
+  }
+
+}
+
+@media only screen and (min-width:448px) {
+  .grey-bg-works {
+    padding:1000px 0 ;
+  }
+
+}
+
+@media only screen and (min-width:472px) {
+
+    .grey-bg {
+      height:1400px ;
+    }
 }
 
 
@@ -1244,10 +1214,53 @@ font-family:'Franklin Gothic Demi';
 
 }
 
+@media only screen and (min-width:478px) {
+  .grey-bg-works {
+    padding:1010px 0 ;
+  }
+
+}
+
+@media only screen and (min-width:487px) {
+  .grey-bg-works {
+    padding:1025px 0 ;
+  }
+
+}
+
+@media only screen and (min-width:497px) {
+  .grey-bg-works {
+    padding:1040px 0 ;
+  }
+
+}
+
+@media only screen and (min-width:521px) {
+  .grey-bg-works {
+    padding:1070px 0 ;
+  }
+
+}
+
+@media only screen and (min-width:531px) {
+  .grey-bg-works {
+    padding:1090px 0 ;
+  }
+
+}
+
+
+
 @media only screen and (min-width:540px) {
     .grey-bg-works {
-      height: 2210px;
+      height: 2200px;
     }
+}
+
+@media only screen and (min-width:561px) {
+  .grey-bg-works {
+    height: 2270px;
+  }
 }
 
 @media only screen and (min-width:565px) {
@@ -1273,7 +1286,7 @@ font-family:'Franklin Gothic Demi';
 
     .grey-bg-works {
       
-        height:2260px;
+        height:2240px;
       
     }
   
@@ -1283,6 +1296,12 @@ font-family:'Franklin Gothic Demi';
     }
   
 
+}
+
+@media only screen and (min-width:626px) {
+  .grey-bg-works {
+    height: 2320px;
+  }
 }
 
 @media only screen and (min-width:640px) {
@@ -1616,6 +1635,7 @@ transform:scaleX(0);
    .grey-bg-works {
       background-color: var(--primary-color);
       height:1080px;
+      padding:0;
     }
     
     .work-content {
